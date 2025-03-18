@@ -2,6 +2,8 @@ Add PyTorchCLSTMClassifier in user_data/freqaimodels
 Add the other two files to your torch-Folder in freqtrade/freqai/torch
 
 Example Config:
+
+```
 "freqai": {
         "enabled": true,
         "activate_tensorboard" : true,
@@ -64,4 +66,5 @@ Example Config:
             "signal_stabilization": false,
             "hysteresis_value": 0.15
         }
+```
         
